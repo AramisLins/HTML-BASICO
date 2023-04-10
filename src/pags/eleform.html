@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/teste.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Conteudo de estudos</h1>
+        <button class="butao"><a href="/index.html">Inicio</a></button>
+        <button class="butao"><a href="/src/pags/contato.html">Contato</a></button>
+    </header>
+    <form>
+        <div class="menu-input">
+            <h3>MENU INICIAL INPUTS</h3>
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Digite seu Nome" id="nome" required>
+            <br>
+            <br>
+            <label for="num">Numero:</label>
+            <input type="number" placeholder="Digite seu numero" id="num" required>
+            <br>
+            <br>
+            <label>Sua cidade:</label>
+            <select name="cidades" required>
+                <option value=""></option>
+                <option value="sousa">Sousa</option>
+                <option value="jp">João Pessoa</option>
+                <option value="cz">Cajazeiras</option>
+                <option value="ita">Itaporanga</option>
+            </select>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Digite o email" id="email" required>
+            <br>
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" placeholder="Digite sua senha" id="senha"required>
+            <br>
+            <br>
+        </div>
+        <!--Criando checkbox-->
+        <!--LABEL DO CHECKBOX VEM APÓS O INPUT-->
+        <div class="checkbox" >
+            <h3>CHECKBOX</h3>
+            <p>Selecione seu Sexo:</p>
+            <input type="checkbox" name="mas" id="masc" value="masc">
+            <label for="masc">Masculino</label>
+            <input type="checkbox" name="fem" id="fem" value="fem">
+            <label for="fem">feminino</label>
+            <br>
+            <!--DEIXANDO O CHECKBOX JA CHECADO "checked"-->
+            <input type="checkbox" name="checkbox3" id="checkbox3" value="checkbox3" checked>
+            <label for="checkbox2">teste ja checado</label>
+            <br>
+        </div>
+        <!--criando radios-->
+        <!--diferença do radios pro checkbox é que no radios pode selecionar apenas um elemento-->
+        <!--O name do radio tem que ser igual pois são do mesmo grupo-->
+        <div class="radios">
+            <h3>RADIO</h3>
+            <input type="radio" name="city" id="city1" value="city1">
+            <label for="city1">Sousa</label>
+            <input type="radio" name="city" id="city2" value="city2">
+            <label for="city2">JP</label>
+            <input type="radio" name="city" id="city3" value="city3">
+            <label for="city3">Itaporanga</label>
+        </div>
+        <div class="textarea">
+            <h3>TextArea</h3>
+            <textarea name="texta" id="texta" cols="30" rows="10" minlength="1" maxlength="500"
+                placeholder="Deixe sua mensagem"></textarea>
+        </div>
+        <div class="botao">
+            <button class="botao-enviar" type="submit">Enviar</button>
+            <button class="botao-resetar" type="reset">Resetar</button>
+        </div>
+    </form>
+
+
+</body>
+<footer>
+    <h4>rodapé</h4>
+    <a href="/src/pags/inputs.html">Inputs adicionais</a>
+    <a href="/index.html">inicio</a>
+    <a href="/src/pags/fomulario.html">Formulario ativo</a>
+</footer>
+
+</html>

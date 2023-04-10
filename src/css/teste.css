@@ -1,0 +1,43 @@
+.cabecalho{
+    border: solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+}
+.butao{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+.menu-principal {
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    
+}
+.cont1{
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.cont2{
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.div-global{
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.div-1{
+    border: 2px solid green;
+}
+
+

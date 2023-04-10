@@ -1,0 +1,24 @@
+.inputclass{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+} 
+.textclass{
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+}
+
+.caixa{
+    width: 100%; 
+    min-height: 20px; 
+    margin-bottom: 10px;
+}
+
+.botaocontato{
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    background-color: #181818;
+
+}
